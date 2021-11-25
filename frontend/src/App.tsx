@@ -1,10 +1,18 @@
+import Datatable from "components/datatable";
+import Footer from "components/footer";
+import NavBar from "components/navBar";
 import React from "react";
 
 function App() {
 	return (
-		<div>
-			<h1 className="text-primary">Hello World</h1>
-		</div>
+		<>
+			<NavBar />
+			<div className="container">
+				<h1 className="text-primary">Hello World</h1>
+				<Datatable />
+			</div>
+			<Footer />
+		</>
 	);
 }
 
