@@ -1,4 +1,4 @@
-import ImgDsDark from "assets/img/devlusca44.svg";
+import ImgDsDark from "assets/img/ds-dark.svg";
 
 function NavBar() {
 	return (
