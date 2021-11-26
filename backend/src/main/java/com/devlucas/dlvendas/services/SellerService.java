@@ -19,8 +19,8 @@ public class SellerService {
 	
 	
 	public List<SellerDTO> findAll() {
-		List<Seller> result = repo.findAll();
-		return result.stream().map(seller -> new SellerDTO(seller)).collect(Collectors.toList());
+		List<Seller> sellers = repo.findAll();
+		return sellers.stream().map(seller -> new SellerDTO(seller)).collect(Collectors.toList());
 	}
 	
 	public SellerDTO findById(Long id) {
