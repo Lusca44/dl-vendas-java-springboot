@@ -17,9 +17,18 @@ function Home() {
 						Esta aplicação consiste em exibir um dashboard a partir de dados
 						fornecidos por um back end construído com Spring Boot.
 					</p>
-					<Link className="btn btn-primary btn-lg" to="/dashboard">
-						Acessar Dashboard
-					</Link>
+					<div className="row justify-content-center">
+						<div className="col-3">
+							<Link className="btn btn-primary btn-lg" to="/dashboard">
+								Acessar Dashboard
+							</Link>
+						</div>
+						<div className="col-3">
+							<Link className="btn btn-primary btn-lg" to="/registerSeller">
+								Registrar novo vendedor
+							</Link>
+						</div>
+					</div>
 				</div>
 			</div>
 			<Footer />

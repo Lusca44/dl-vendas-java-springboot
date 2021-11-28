@@ -1,5 +1,6 @@
 import Dashboard from "pages/Dashboard";
 import Home from "pages/Home";
+import RegisterSellerForm from "pages/RegisterSellerForm";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function Routes() {
@@ -11,6 +12,9 @@ function Routes() {
 				</Route>
 				<Route path="/dashboard">
 					<Dashboard />
+				</Route>
+				<Route path="/registerSeller">
+					<RegisterSellerForm />
 				</Route>
 			</Switch>
 		</BrowserRouter>
