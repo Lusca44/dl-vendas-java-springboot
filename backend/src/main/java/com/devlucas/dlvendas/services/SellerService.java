@@ -28,4 +28,15 @@ public class SellerService {
 		return new SellerDTO(seller.get());
 	}
 	
+	public SellerDTO createSeller(SellerDTO sellerDTO) {
+		repo.save(fromDTO(sellerDTO));
+		return sellerDTO;
+	}
+	
+	
+	private Seller fromDTO(SellerDTO dto) {
+		Seller seller = new Seller();
+		seller.setName(dto.getName());
+		return seller;
+	}
 }
