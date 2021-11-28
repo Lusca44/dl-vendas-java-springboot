@@ -18,7 +18,7 @@ function Home() {
 						fornecidos por um back end construído com Spring Boot.
 					</p>
 					<Link className="btn btn-primary btn-lg" to="/dashboard">
-						Virei viado não e possivel
+						Acessar Dashboard
 					</Link>
 				</div>
 			</div>
